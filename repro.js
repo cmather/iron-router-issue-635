@@ -11,7 +11,7 @@ if (Meteor.isClient) {
           // this ready handle will be ready in a few seconds
           // later than the first handle
           Meteor.subscribe('two')
-        ]
+        ];
       },
 
       action: function () {
